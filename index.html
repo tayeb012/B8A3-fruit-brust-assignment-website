@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fruit Burst</title>
+    <!-- fav icon -->
+    <link rel="shortcut icon" href="/images/logo.png" type="image/x-icon" />
+    <!-- tailwind & daisy link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- for (tailwind) custom class -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+    <!-- Font awesome link  -->
+    <script
+      src="https://kit.fontawesome.com/7bed064501.js"
+      crossorigin="anonymous"
+      +=""
+      f577=""
+    ></script>
+    <!-- google font family " Lato" -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- vanilla css -->
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: "Lato", sans-serif;
+        overflow: hidden;
+      }
+    </style>
+  </head>
+  <body>
+    <header class=" mx-3 sm:mx-28 my-4">
+      <div class="navbar sm:bg-[#F85559] relative rounded-full px-7">
+        <div class="navbar-start hidden lg:flex">
+          <ul class="menu menu-horizontal px-1 text-white">
+            <li><a>Home</a></li>
+            <li><a>About Us</a></li>
+            <li><a>Shop</a></li>
+            <li><a>All Fruits</a></li>
+          </ul>
+        </div>
+        <div class="navbar-center sm:text-white ">
+          <a class="flex normal-case font-extrabold text-2xl sm:text-3xl lg:text-4xl"><img src="images/logo.png" alt="logo.png" class=" w-7 sm:w-9"> Fruit Burst</a>
+        </div>
+        <div class="navbar-end hidden md:flex relative">
+          <input
+            type="text"
+            placeholder="Search here"
+            class="input input-ghost w-full max-w-xs h-0 py-5 px-8 bg-white rounded-3xl"
+          />
+          <i class="fa-solid fa-magnifying-glass absolute right-4"></i>
+          
+        </div>
+        <!-- navber -->
+        <div class="dropdown absolute right-0">
+            <label tabindex="0" class="btn btn-ghost lg:hidden">
+                <i class="fa-solid fa-bars text-lg"></i>
+            </label>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content mt-3 z-[5] p-2 shadow  rounded-box w-52 bg-black"
+            >
+              <li><a>Home</a></li>
+              <li><a>About Us</a></li>
+              <li><a>Shop</a></li>
+              <li><a>All Fruits</a></li>
+            </ul>
+          </div>
+      </div>
+      <!-- banner part -->
+    </header>
+    <main></main>
+    <footer></footer>
+    <!-- git remote add origin https://github.com/tayeb012/B8A3-fruit-brust-assignment-website.git -->
+  </body>
+</html>
