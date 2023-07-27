@@ -51,6 +51,16 @@
       a {
         cursor: pointer;
       }
+      hr {
+        position: relative;
+        display: block;
+        margin: 1rem 0;
+        width: 100px;
+        height: 2px;
+        color: inherit;
+        border-top-width: 1px;
+        background-color: black;
+      }
     </style>
   </head>
   <body>
@@ -1162,15 +1172,117 @@
       </section>
       <!-- 3rd section -->
       <section class="my-4 mx-5 sm:mx-20 lg:mx-28">
-        <div class="flex flex-col items-center gap-6">
-          <h2 class="text-5xl font-bold">Why Choose Us</h2>
+        <!-- section 3 par 1 -->
+        <div class="my-10 flex flex-col items-center gap-6">
+          <h2 class="text-3xl sm:text-5xl text-center font-bold">
+            Why Choose Us
+          </h2>
           <p class="max-w-[600px] text-center text-[#121212CC] text-base">
             Contrary to popular belief, is not simply random text. It has roots
             in a piece of classical Latin literature from 45 BC, making it over
             2000 years old.
           </p>
         </div>
-        <div class=""></div>
+        <!-- section 3 par 2 -->
+        <div class="flex flex-col lg:flex-row items-center gap-8">
+          <div class="flex flex-col gap-10">
+            <div class="flex items-center gap-4">
+              <span
+                class="h-12 w-12 flex items-center justify-center rounded-full bg-[#d8d8d8]"
+              >
+                <i class="fa-solid fa-users"></i>
+              </span>
+              <div class="">
+                <h3 class="text-2xl font-extrabold">Dedicated Team</h3>
+                <hr />
+                <p class="text-[#121212CC]">
+                  Professional employees are there for you to pick the most
+                  amazing and fresh fruits.
+                </p>
+              </div>
+            </div>
+            <div class="flex items-center gap-4">
+              <span
+                class="h-12 w-12 flex items-center justify-center rounded-full bg-[#d8d8d8]"
+              >
+                <i class="fa-solid fa-heart-circle-bolt"></i>
+              </span>
+              <div class="">
+                <h3 class="text-2xl font-extrabold">Fresh is Best</h3>
+                <hr />
+                <p class="text-[#121212CC]">
+                  Professional employees are there for you to pick the most
+                  amazing and fresh fruits.
+                </p>
+              </div>
+            </div>
+            <div class="flex items-center gap-4">
+              <span
+                class="h-12 w-12 flex items-center justify-center rounded-full bg-[#d8d8d8]"
+              >
+                <i class="fa-solid fa-gift"></i>
+              </span>
+              <div class="">
+                <h3 class="text-2xl font-extrabold">Gift Certificates</h3>
+                <hr />
+                <p class="text-[#121212CC]">
+                  Professional employees are there for you to pick the most
+                  amazing and fresh fruits.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="">
+            <img src="./images/whychoose1.png" alt="whychoose1.png" />
+          </div>
+          <div class="flex flex-col gap-10 ">
+            <div class="flex lg:flex-row-reverse items-center gap-4">
+              <span
+                class="h-12 w-12 flex items-center justify-center rounded-full bg-[#d8d8d8]"
+              >
+                <i class="fa-solid fa-carrot"></i>
+              </span>
+              <div class="flex flex-col lg:items-end lg:text-right">
+                <h3 class="text-2xl font-extrabold">Dedicated Team</h3>
+                <hr />
+                <p class="text-[#121212CC]">
+                  Professional employees are there for you to pick the most
+                  amazing and fresh fruits.
+                </p>
+              </div>
+            </div>
+            <div class="flex lg:flex-row-reverse items-center gap-4">
+              <span
+                class="h-12 w-12 flex items-center justify-center rounded-full bg-[#d8d8d8]"
+              >
+                <i class="fa-solid fa-ice-cream"></i>
+              </span>
+              <div class="flex flex-col lg:items-end lg:text-right">
+                <h3 class="text-2xl font-extrabold">Fresh is Best</h3>
+                <hr />
+                <p class="text-[#121212CC]">
+                  Professional employees are there for you to pick the most
+                  amazing and fresh fruits.
+                </p>
+              </div>
+            </div>
+            <div class="flex lg:flex-row-reverse items-center gap-4">
+              <span
+                class="h-12 w-12 flex items-center justify-center rounded-full bg-[#d8d8d8]"
+              >
+              <i class="fa-regular fa-thumbs-up"></i>
+              </span>
+              <div class="flex flex-col lg:items-end lg:text-right">
+                <h3 class="text-2xl font-extrabold">Gift Certificates</h3>
+                <hr />
+                <p class="text-[#121212CC]">
+                  Professional employees are there for you to pick the most
+                  amazing and fresh fruits.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
     <footer
@@ -1190,12 +1302,24 @@
         <li><a>My Account</a></li>
       </ul>
       <ul class="flex flex-wrap justify-center gap-8 text-xl sm:text-4xl">
-        <li><a><i class="fa-brands fa-twitter"></i></a></li>
-        <li><a><i class="fa-brands fa-facebook"></i></a></li>
-        <li><a><i class="fa-brands fa-youtube"></i></a></li>
-        <li><a><i class="fa-brands fa-linkedin"></i></a></li>
-        <li><a><i class="fa-brands fa-instagram"></i></a></li>
-        <li><a><i class="fa-brands fa-apple"></i></a></li>
+        <li>
+          <a><i class="fa-brands fa-twitter"></i></a>
+        </li>
+        <li>
+          <a><i class="fa-brands fa-facebook"></i></a>
+        </li>
+        <li>
+          <a><i class="fa-brands fa-youtube"></i></a>
+        </li>
+        <li>
+          <a><i class="fa-brands fa-linkedin"></i></a>
+        </li>
+        <li>
+          <a><i class="fa-brands fa-instagram"></i></a>
+        </li>
+        <li>
+          <a><i class="fa-brands fa-apple"></i></a>
+        </li>
       </ul>
     </footer>
   </body>
